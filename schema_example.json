@@ -1,0 +1,29 @@
+{
+  "meta": { "title": "Sample Form", "author": "PDF Form Designer" },
+  "page": { "size": "LETTER" },
+  "background_pdf": "",
+  "fields": [
+    {
+      "type": "text",
+      "name": "full_name",
+      "label": "Full Name",
+      "x": 72,
+      "y": 650,
+      "w": 300,
+      "h": 20,
+      "font_size": 11,
+      "required": false,
+      "multiline": false
+    },
+    {
+      "type": "checkbox",
+      "name": "subscribe",
+      "label": "Subscribe?",
+      "x": 72,
+      "y": 610,
+      "w": 14,
+      "h": 14,
+      "required": false
+    }
+  ]
+}
